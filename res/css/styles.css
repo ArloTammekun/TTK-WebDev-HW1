@@ -23,12 +23,41 @@ body {
 	border-radius: 15px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-div > img {
+.item_container > img {
 	width: 100%;
 }
 
-div > .card-head, div > .card-footer {
+.item_container > div {
 	margin: 15px;
+}
+.card-footer p {
+	margin-top: 0;
+	font-weight: bold;
+}
+.card-footer p ~ p {
+	margin-top: 16px;
+}
+
+.card-head {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.card-head > img {
+	border-radius: 50%;
+}
+.card-head img + p {
+	color: gray;
+}
+
+.like-btn {
+	background-color: #007056;
+	padding: 0.5em;
+	width: 5em;
+}
+.like-btn > p {
+	margin: 0;
 }
 
 .search-container{
