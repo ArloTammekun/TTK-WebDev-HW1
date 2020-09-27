@@ -145,6 +145,7 @@ body {
 
 .login-input:hover {
 	border: 2px solid rgb(82, 80, 80);
+	margin: 9px;
 }
 
 .login-form > input[type =submit]{
